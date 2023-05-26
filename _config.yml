@@ -5,7 +5,7 @@ baseurl:
 url: https://mazhuang.org
 date_format: "ordinal"
 title: 码志
-subtitle: "公众号：闷骚的程序员"
+subtitle: "法助乡云"
 description: "马壮的个人博客，公众号：闷骚的程序员"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
@@ -23,15 +23,15 @@ components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: false
+        enabled: true
         hide-platforms: qq,facebook
     # 不蒜子访问统计
     busuanzi:
-        enabled: false
-        start_date: 2020-05-03
+        enabled: true
+        start_date: 2023-05-26
     # My Popular Repositories
     side_bar_repo:
-        enabled: true
+        enabled: false
         limit: 5
     # 文章字数统计
     word_count:
@@ -39,7 +39,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
+        enabled: false
         image_alt: 闷骚的程序员
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
@@ -57,10 +57,10 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Shizhan Zhao
 organization: 
 organization_url: 
-github_username: mzlogin
+#github_username: mzlogin#
 location: Wuhan, China
 email: chumpma@gmail.com
 
@@ -74,25 +74,8 @@ navs:
 
   -
     href: /categories/
-    label: 分类
-
-  -
-    href: /archives/
-    label: 归档
-    mobile-hidden: true
-
-  -
-    href: /open-source/
-    label: 开源
-    mobile-hidden: true
-
-  -
-    href: /fragments/
-    label: 片段
-
-  -
-    href: /wiki/
-    label: 维基
+    label: 资讯
+    
 
   -
     href: /links/
