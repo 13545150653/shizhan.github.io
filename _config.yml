@@ -83,10 +83,6 @@ navs:
   -
    href:  /inquiries/
    label: 咨询
-  -
-    href: /links/
-    label: 资讯
-    mobile-hidden: true
 
   -
     href: /about/
