@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 解决 Groovy 引起的一次 OOM 告警
-categories: [Java]
+title: 关于婚姻财产那些事儿，你知道吗？
+categories: [资讯]
 description: 生产环境出现了一次 OOM 告警，经过排查与 Groovy 有关，最终解决。
 keywords: Groovy, OutOfMemoryError, OOM, Java, 系统稳定性
 ---
@@ -10,12 +10,21 @@ keywords: Groovy, OutOfMemoryError, OOM, Java, 系统稳定性
 
 ## 问题分析
 
-从监控系统来看，被 kill 的节点 A 在重启前，堆内存使用随着 YoungGC 规律波动，元空间占用较高，且一直缓慢增长到了400MB以上——该应用代码量不大，按理不应该占用这么多。
+近期，关于婚姻财产纠纷的案例屡屡冲上热搜，引发了人们的广泛关注。
 
-![oom killed pod](/images/posts/java/oom-killed-pod.png)
 
-而与它同容器组的另一个节点 B 看起来更不正常，平均响应时间明显长于另外的节点，且在堆内存已经降下来的情况下还多次 FullGC，并且有很多 java.lang.OutOfMemoryError。晚些时候该节点触发了两次 FullGC 次数过多的告警。
 
+婚姻、财产、第三者,
+
+这样的故事总是让人唏嘘。
+
+
+
+下面的两个案例，
+
+也许能够教会我们，
+
+如何更好地守护财产和爱~
 ![oom fullgc pod](/images/posts/java/oom-fullgc-pod.png)
 
 OutOfMemoryError 异常堆栈：
