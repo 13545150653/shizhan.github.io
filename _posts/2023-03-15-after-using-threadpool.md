@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 记两个有关线程池的小问题
-categories: [Java]
-description: 两个有关线程池的小问题记录。
-keywords: Java, 线程池
+categories: [资讯]
+description: 3.15消费者权益日
+keywords: 资讯
 mermaid: false
 sequence: false
 flow: false
@@ -12,7 +12,7 @@ mindmap: false
 mindmap2: false
 ---
 
-最近小伙伴们找我查的问题里，有两个与线程池相关的，最终都是花了一些时间才揪出原因所在，做一下记录，供以后的自己和其它需要的人参考。
+国际消费者权益日（World Consumer Rights Day） ，时间为每年的3月15日，由国际消费者联盟组织于1983年确定，目的在于扩大消费者权益保护的宣传，使消费者权益在世界范围内得到重视，以促进各国和地区消费者组织之间的合作与交往，在国际范围内更好地保护消费者权益。
 
 ## 一、异步变同步
 
