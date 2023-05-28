@@ -6,9 +6,6 @@ description: 生产环境出现了一次 OOM 告警，经过排查与 Groovy 有
 keywords: Groovy, OutOfMemoryError, OOM, Java, 系统稳定性
 ---
 
-线上收到告警，有个服务的一个 pod was OOM killed.
-
-## 问题分析
 
 近期，关于婚姻财产纠纷的案例屡屡冲上热搜，引发了人们的广泛关注。
 
