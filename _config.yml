@@ -76,10 +76,16 @@ navs:
     href: /categories/
     label: 资讯
     
-
+  -
+    href: /laws/
+    label: 法律法规
+    
+  -
+   href:  /inquiries/
+   label: 咨询
   -
     href: /links/
-    label: 链接
+    label: 资讯
     mobile-hidden: true
 
   -
